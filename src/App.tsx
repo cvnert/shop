@@ -1,7 +1,9 @@
+import { useRoutes } from "react-router-dom";
 import "./App.css";
+import { routerTree } from "./router";
 
 function App() {
-  return <></>;
+  return <>{useRoutes(routerTree)}</>;
 }
 
 export default App;
